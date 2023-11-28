@@ -4,49 +4,40 @@
     <meta charset="UTF-8">
     <title>Table</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <style>
-        table, td, th {
-            border-collapse: separate;
-            border: 2px solid coral;
-            background-color: #ffdddd;
-            width: 100px;
-            height: 100px;
-        }
-    </style>
 </head>
-<body>
-<table style="width: 600px;height: 500px; text-align: center">
-    <caption style="font-size: 20px">Courses</caption>
-   <!-- <colgroup>
-        <col span="2" style="background-color: khaki">
-        <col style="background-color: hotpink">
-    </colgroup> -->
-    <tbody>
+<body class="body">
+<div class="container">
+    <h1 class="heading">I'm learning to make tables</h1>
+    <a href="../index.html">Link to home page</a>
+    <table>
+        <caption>Mondrian art</caption>
+        <tbody>
         <tr>
-            <td colspan="2">1</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td rowspan="3">6</td>
+            <td colspan="2" class="clr1"></td>
+            <td class="clr2"></td>
+            <td class="clr2"></td>
+            <td class="clr2"></td>
+            <td rowspan="3" class="clr6"></td>
         </tr>
         <tr>
-            <td rowspan="2">7</td>
-            <td>8</td>
-            <td colspan="3" rowspan="2">9</td>
+            <td rowspan="2" class="clr3"></td>
+            <td class="clr2"></td>
+            <td colspan="3" rowspan="2" class="clr4"></td>
         </tr>
         <tr>
-            <td>14</td>
+            <td class="clr2"></td>
         </tr>
         <tr>
-            <td rowspan="2" colspan="3">19</td>
-            <td>22</td>
-            <td>23</td>
-            <td rowspan="2">24</td>
+            <td rowspan="2" colspan="3" class="clr5"></td>
+            <td class="clr2"></td>
+            <td class="clr2"></td>
+            <td rowspan="2" class="clr3"></td>
         </tr>
         <tr>
-            <td colspan="2">28</td>
+            <td colspan="2" class="clr1"></td>
         </tr>
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>

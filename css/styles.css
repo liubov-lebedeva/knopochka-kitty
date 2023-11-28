@@ -1,7 +1,7 @@
 @import url('reset.css');
 
 .body {
-    background-color: #fdf7f7;
+    background: #fdf7f7;
 }
 
 .container {
@@ -10,11 +10,18 @@
     margin: auto auto;
 }
 
+div a {
+    margin: 10px auto;
+    border: 3px solid peachpuff;
+    background: peachpuff;
+    padding: 10px;
+}
+
 .heading {
     font-size: 30px;
     border: 3px solid black;
     margin: 50px auto 20px;
-    background-color: #ffdddd;
+    background: #ffdddd;
     color: hotpink;
     padding: 20px 10px;
 }
@@ -28,14 +35,14 @@ p {
 hr {
     height: 3px;
     border-width: 0;
-    background-color: black;
+    background: black;
     margin: 20px auto;
 }
 
 .container > div {
     margin: 0 auto;
     color: rgba(255, 105, 180, 0.85);
-    background-color: #ffdddd;
+    background: #ffdddd;
 }
 
 div h2 {
@@ -47,11 +54,55 @@ div h2 {
 
 div + div {
     margin: 50px auto;
-    background-color: #ffdddd;
+    background: #ffdddd;
 }
 
 div img {
     width: 300px;
     height: 300px;
     margin: 10px 10px;
+}
+
+table, td, th {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 1px;
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+caption {
+    font-size: 25px;
+    margin: 10px auto 15px;
+}
+
+.clr1 {
+    background: #be216f;
+}
+
+.clr2 {
+    background: chartreuse;
+}
+
+.clr3 {
+    background: cadetblue;
+}
+
+.clr4 {
+    background: #33b2e3;
+}
+
+.clr5 {
+    background: #808080;
+}
+
+.clr6 {
+    background: #318025;
 }

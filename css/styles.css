@@ -83,26 +83,26 @@ caption {
     margin: 10px auto 15px;
 }
 
-.clr1 {
+.bgPink {
     background: #be216f;
 }
 
-.clr2 {
+.bgGreen {
     background: chartreuse;
 }
 
-.clr3 {
-    background: cadetblue;
+.bgTurquoise {
+    background: #08e3da;
 }
 
-.clr4 {
+.bgBlue {
     background: #33b2e3;
 }
 
-.clr5 {
+.bgGray {
     background: #808080;
 }
 
-.clr6 {
+.bgDeepGreen {
     background: #318025;
 }
